@@ -1,0 +1,181 @@
+.top-bar {
+  display: flex;
+  margin-bottom: 50px;
+}
+.top-leftbar {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+.top-rightbar {
+  display: flex;
+  flex: 1;
+  margin-left: 300px;
+  align-items: center;
+  padding-top: 13px;
+}
+.starbucks-icon {
+  width: 50px;
+  margin-right: 30px;
+  margin-top: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.menu-script {
+  margin-right: 30px;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  transition: transform 0.5s ease; 
+}
+.menu-script:hover {
+  color: green;
+  transform: scale(1.2);
+}
+.rewards-script {
+  margin-right: 30px;
+  margin-top: 16px;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  transition: transform 0.5s ease; 
+}
+.rewards-script:hover {
+  color: green;
+  transform: scale(1.2);
+}
+.giftcard-script {
+  width: 90px;
+  margin-top: 16px;
+  margin-bottom: 0;
+  margin-right: 200px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  transition: transform 0.5s ease; 
+}
+.giftcard-script:hover {
+  color: green;
+  transform: scale(1.2);
+}
+.find-store-script {
+  margin-right: 70px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.5s ease; 
+}
+.find-store-script:hover {
+  color: green;
+  transform: scale(1.2);
+}
+.sign-in-button {
+  font-size: 15px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: transform 0.5s ease; 
+}
+.sign-in-button:hover {
+  background-color: rgb(221, 221, 221);
+  transform: scale(1.2);
+
+}
+.join-button {
+  font-size: 15px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 7px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: transform 0.5s ease; 
+}
+.join-button:hover {
+  background-color: rgb(126, 126, 126);
+  transform: scale(1.2);
+}
+
+.first-line {
+  display: flex;
+  margin-bottom: 40px;
+}
+.starbucks-photo-1 {
+  width: 600px;
+  margin-left: 0;
+  display: flex; 
+  flex: 1;
+}
+.starbucks-script-1 {
+  padding-top: 110px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e5ff67; 
+  color: white;
+}
+.starbucks-script-2 {
+  padding-top: 110px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  background-color: #eb81a5; 
+  color: white;
+}
+.join-for-free-button {
+  width: 130px; 
+  background-color: #e5ff67; 
+  color: black; 
+  border: solid; 
+  border-width: 1px; 
+  border-radius: 20px; 
+  font-size: 17px; 
+  padding-top: 5px; 
+  padding-bottom: 5px; 
+  padding-left: 15px; 
+  padding-right: 15px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.join-for-free-button:hover {
+background-color: rgb(233, 231, 231);
+}
+
+.order-now-1 {
+  width: 130px; 
+  background-color: #eb81a5; 
+  color: black; 
+  border: solid; 
+  border-width: 1px; 
+  border-radius: 20px; 
+  font-size: 17px; 
+  padding-top: 5px; 
+  padding-bottom: 5px; 
+  padding-left: 15px; 
+  padding-right: 15px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.order-now-1:hover {
+background-color: rgb(233, 231, 231);
+}
